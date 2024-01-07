@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import joblib
 
+
 df = pd.read_csv("./combined_filtered2.csv")
 
 def predict_price(brand, model, year, mileage, fuel_economy):
